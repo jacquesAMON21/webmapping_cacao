@@ -1,0 +1,1242 @@
+{
+ "type": "FeatureCollection",
+ "name": "plantations_cacao_fictives",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P01",
+    "nom": "Kouassi Yao",
+    "village": "Zakoukro",
+    "zone": "Soubré",
+    "surface_ha": 8.4,
+    "variete": "Hybride amélioré",
+    "age_verger": 12,
+    "rendement_kg_ha": 780,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Terre Fertile"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -6.552246,
+       5.810328
+      ],
+      [
+       -6.552,
+       5.809626
+      ],
+      [
+       -6.550791,
+       5.808945
+      ],
+      [
+       -6.549543,
+       5.808731
+      ],
+      [
+       -6.548823,
+       5.809373
+      ],
+      [
+       -6.548164,
+       5.809863
+      ],
+      [
+       -6.548417,
+       5.810645
+      ],
+      [
+       -6.549147,
+       5.811
+      ],
+      [
+       -6.55037,
+       5.811357
+      ],
+      [
+       -6.551234,
+       5.810797
+      ],
+      [
+       -6.552246,
+       5.810328
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P02",
+    "nom": "Aya Konan",
+    "village": "Brédikro",
+    "zone": "Méagui",
+    "surface_ha": 3.2,
+    "variete": "Forastero",
+    "age_verger": 18,
+    "rendement_kg_ha": 540,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Nouvelle Aube"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -6.52016,
+       5.420998
+      ],
+      [
+       -6.520544,
+       5.420803
+      ],
+      [
+       -6.520842,
+       5.420028
+      ],
+      [
+       -6.520394,
+       5.4194
+      ],
+      [
+       -6.51998,
+       5.418743
+      ],
+      [
+       -6.519247,
+       5.418955
+      ],
+      [
+       -6.5191,
+       5.420372
+      ],
+      [
+       -6.519677,
+       5.420733
+      ],
+      [
+       -6.52016,
+       5.420998
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P03",
+    "nom": "Bamba Souleymane",
+    "village": "Gbapleu",
+    "zone": "Daloa",
+    "surface_ha": 5.6,
+    "variete": "Hybride amélioré",
+    "age_verger": 9,
+    "rendement_kg_ha": 720,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Espoir du Bandama"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -6.411215,
+       6.910837
+      ],
+      [
+       -6.411097,
+       6.910331
+      ],
+      [
+       -6.410717,
+       6.909556
+      ],
+      [
+       -6.410031,
+       6.908706
+      ],
+      [
+       -6.409413,
+       6.908666
+      ],
+      [
+       -6.409017,
+       6.909158
+      ],
+      [
+       -6.408874,
+       6.909895
+      ],
+      [
+       -6.408793,
+       6.910464
+      ],
+      [
+       -6.409914,
+       6.911347
+      ],
+      [
+       -6.410765,
+       6.911478
+      ],
+      [
+       -6.411215,
+       6.910837
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P04",
+    "nom": "Adjoua Koffi",
+    "village": "Kouadiokro",
+    "zone": "Issia",
+    "surface_ha": 2.4,
+    "variete": "Amelonado",
+    "age_verger": 25,
+    "rendement_kg_ha": 430,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Mon Terroir"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -6.619987,
+       6.520859
+      ],
+      [
+       -6.620278,
+       6.520634
+      ],
+      [
+       -6.620794,
+       6.520261
+      ],
+      [
+       -6.62078,
+       6.519826
+      ],
+      [
+       -6.620499,
+       6.519164
+      ],
+      [
+       -6.620138,
+       6.518929
+      ],
+      [
+       -6.619695,
+       6.519277
+      ],
+      [
+       -6.619224,
+       6.519699
+      ],
+      [
+       -6.619357,
+       6.520327
+      ],
+      [
+       -6.61959,
+       6.520572
+      ],
+      [
+       -6.619987,
+       6.520859
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P05",
+    "nom": "Konaté Ibrahim",
+    "village": "Doukouya",
+    "zone": "Gagnoa",
+    "surface_ha": 6.8,
+    "variete": "Hybride amélioré",
+    "age_verger": 14,
+    "rendement_kg_ha": 700,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Les Bâtisseurs"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.991557,
+       6.170472
+      ],
+      [
+       -5.991431,
+       6.169549
+      ],
+      [
+       -5.990751,
+       6.169026
+      ],
+      [
+       -5.989635,
+       6.169038
+      ],
+      [
+       -5.988943,
+       6.169369
+      ],
+      [
+       -5.988373,
+       6.169961
+      ],
+      [
+       -5.988774,
+       6.171137
+      ],
+      [
+       -5.989961,
+       6.171414
+      ],
+      [
+       -5.990851,
+       6.170902
+      ],
+      [
+       -5.991557,
+       6.170472
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P06",
+    "nom": "Ehui Marie",
+    "village": "Assoukro",
+    "zone": "Oumé",
+    "surface_ha": 4.1,
+    "variete": "Forastero",
+    "age_verger": 20,
+    "rendement_kg_ha": 520,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Terre Fertile"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.459012,
+       6.340562
+      ],
+      [
+       -5.459683,
+       6.340948
+      ],
+      [
+       -5.460662,
+       6.340665
+      ],
+      [
+       -5.461246,
+       6.340173
+      ],
+      [
+       -5.46125,
+       6.33929
+      ],
+      [
+       -5.460204,
+       6.339119
+      ],
+      [
+       -5.459212,
+       6.339112
+      ],
+      [
+       -5.459004,
+       6.339929
+      ],
+      [
+       -5.459012,
+       6.340562
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P07",
+    "nom": "Gnahoré Paul",
+    "village": "Zégo",
+    "zone": "Divo",
+    "surface_ha": 7.3,
+    "variete": "Hybride amélioré",
+    "age_verger": 11,
+    "rendement_kg_ha": 760,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Nouvelle Aube"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.311072,
+       5.881167
+      ],
+      [
+       -5.311291,
+       5.879903
+      ],
+      [
+       -5.310811,
+       5.879132
+      ],
+      [
+       -5.309246,
+       5.878615
+      ],
+      [
+       -5.308903,
+       5.879533
+      ],
+      [
+       -5.308424,
+       5.880558
+      ],
+      [
+       -5.309757,
+       5.881825
+      ],
+      [
+       -5.311072,
+       5.881167
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P08",
+    "nom": "Tano Brou",
+    "village": "Niamandjo",
+    "zone": "Lakota",
+    "surface_ha": 2.9,
+    "variete": "Amelonado",
+    "age_verger": 22,
+    "rendement_kg_ha": 460,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Mon Terroir"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.72037,
+       5.811045
+      ],
+      [
+       -5.720752,
+       5.810582
+      ],
+      [
+       -5.720544,
+       5.809995
+      ],
+      [
+       -5.720436,
+       5.809355
+      ],
+      [
+       -5.720213,
+       5.808852
+      ],
+      [
+       -5.719659,
+       5.80925
+      ],
+      [
+       -5.719305,
+       5.8093
+      ],
+      [
+       -5.719179,
+       5.809782
+      ],
+      [
+       -5.719382,
+       5.810706
+      ],
+      [
+       -5.71985,
+       5.811127
+      ],
+      [
+       -5.72037,
+       5.811045
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P09",
+    "nom": "Zadi Honoré",
+    "village": "Kouassikro",
+    "zone": "Sinfra",
+    "surface_ha": 5.2,
+    "variete": "Hybride amélioré",
+    "age_verger": 10,
+    "rendement_kg_ha": 690,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Les Bâtisseurs"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.879426,
+       6.660986
+      ],
+      [
+       -5.880052,
+       6.66112
+      ],
+      [
+       -5.880885,
+       6.661016
+      ],
+      [
+       -5.880846,
+       6.659956
+      ],
+      [
+       -5.881239,
+       6.659004
+      ],
+      [
+       -5.88038,
+       6.658822
+      ],
+      [
+       -5.879343,
+       6.658781
+      ],
+      [
+       -5.878684,
+       6.659723
+      ],
+      [
+       -5.879061,
+       6.660352
+      ],
+      [
+       -5.879426,
+       6.660986
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P10",
+    "nom": "Kacou Rose",
+    "village": "Tiégba",
+    "zone": "Bouaflé",
+    "surface_ha": 3.6,
+    "variete": "Forastero",
+    "age_verger": 16,
+    "rendement_kg_ha": 560,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Espoir du Bandama"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.788821,
+       6.950968
+      ],
+      [
+       -5.789718,
+       6.950973
+      ],
+      [
+       -5.790278,
+       6.950882
+      ],
+      [
+       -5.790626,
+       6.950197
+      ],
+      [
+       -5.791084,
+       6.949546
+      ],
+      [
+       -5.790712,
+       6.949437
+      ],
+      [
+       -5.790286,
+       6.948972
+      ],
+      [
+       -5.789915,
+       6.948981
+      ],
+      [
+       -5.788927,
+       6.949661
+      ],
+      [
+       -5.789047,
+       6.9504
+      ],
+      [
+       -5.788821,
+       6.950968
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P11",
+    "nom": "Dago Pierre",
+    "village": "Amanikro",
+    "zone": "Abengourou",
+    "surface_ha": 9.1,
+    "variete": "Hybride amélioré",
+    "age_verger": 8,
+    "rendement_kg_ha": 810,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Nouvelle Aube"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -3.438045,
+       6.770488
+      ],
+      [
+       -3.439039,
+       6.770992
+      ],
+      [
+       -3.44002,
+       6.771681
+      ],
+      [
+       -3.440984,
+       6.771235
+      ],
+      [
+       -3.441491,
+       6.770463
+      ],
+      [
+       -3.441656,
+       6.769723
+      ],
+      [
+       -3.44127,
+       6.768817
+      ],
+      [
+       -3.440388,
+       6.76868
+      ],
+      [
+       -3.438708,
+       6.768727
+      ],
+      [
+       -3.43869,
+       6.769611
+      ],
+      [
+       -3.438045,
+       6.770488
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P12",
+    "nom": "Ouattara Salif",
+    "village": "Bianouan",
+    "zone": "Aboisso",
+    "surface_ha": 4.7,
+    "variete": "Amelonado",
+    "age_verger": 19,
+    "rendement_kg_ha": 500,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Terre Fertile"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -3.250753,
+       5.510921
+      ],
+      [
+       -3.251369,
+       5.510308
+      ],
+      [
+       -3.250962,
+       5.509071
+      ],
+      [
+       -3.249488,
+       5.508838
+      ],
+      [
+       -3.249054,
+       5.509362
+      ],
+      [
+       -3.2493,
+       5.510439
+      ],
+      [
+       -3.249943,
+       5.511253
+      ],
+      [
+       -3.250753,
+       5.510921
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P13",
+    "nom": "Aka Louise",
+    "village": "Ebilassokro",
+    "zone": "Agnibilékrou",
+    "surface_ha": 3.0,
+    "variete": "Forastero",
+    "age_verger": 21,
+    "rendement_kg_ha": 480,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Mon Terroir"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -3.240733,
+       7.090486
+      ],
+      [
+       -3.240814,
+       7.09006
+      ],
+      [
+       -3.240517,
+       7.089315
+      ],
+      [
+       -3.24002,
+       7.089117
+      ],
+      [
+       -3.239224,
+       7.089177
+      ],
+      [
+       -3.239179,
+       7.089857
+      ],
+      [
+       -3.239077,
+       7.090315
+      ],
+      [
+       -3.239757,
+       7.090715
+      ],
+      [
+       -3.24031,
+       7.091246
+      ],
+      [
+       -3.240733,
+       7.090486
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P14",
+    "nom": "Brou Fidèle",
+    "village": "Yapokro",
+    "zone": "Adzopé",
+    "surface_ha": 6.2,
+    "variete": "Hybride amélioré",
+    "age_verger": 13,
+    "rendement_kg_ha": 710,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Les Bâtisseurs"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -3.898332,
+       6.071037
+      ],
+      [
+       -3.899484,
+       6.071125
+      ],
+      [
+       -3.900438,
+       6.071421
+      ],
+      [
+       -3.900811,
+       6.070404
+      ],
+      [
+       -3.901532,
+       6.069908
+      ],
+      [
+       -3.901153,
+       6.069403
+      ],
+      [
+       -3.900613,
+       6.068973
+      ],
+      [
+       -3.899966,
+       6.068884
+      ],
+      [
+       -3.898976,
+       6.069534
+      ],
+      [
+       -3.898301,
+       6.070206
+      ],
+      [
+       -3.898332,
+       6.071037
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P15",
+    "nom": "Soro Mamadou",
+    "village": "Oressikro",
+    "zone": "Agboville",
+    "surface_ha": 5.0,
+    "variete": "Hybride amélioré",
+    "age_verger": 10,
+    "rendement_kg_ha": 680,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Nouvelle Aube"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -4.171208,
+       5.971202
+      ],
+      [
+       -4.171406,
+       5.970359
+      ],
+      [
+       -4.170661,
+       5.969584
+      ],
+      [
+       -4.169856,
+       5.968536
+      ],
+      [
+       -4.169016,
+       5.969038
+      ],
+      [
+       -4.168674,
+       5.969712
+      ],
+      [
+       -4.169545,
+       5.970654
+      ],
+      [
+       -4.170312,
+       5.971167
+      ],
+      [
+       -4.171208,
+       5.971202
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P16",
+    "nom": "N’Dri Cécile",
+    "village": "Morokro",
+    "zone": "Tiassalé",
+    "surface_ha": 2.2,
+    "variete": "Amelonado",
+    "age_verger": 28,
+    "rendement_kg_ha": 410,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Espoir du Bandama"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -4.789788,
+       5.860581
+      ],
+      [
+       -4.790169,
+       5.860822
+      ],
+      [
+       -4.790507,
+       5.860616
+      ],
+      [
+       -4.790867,
+       5.859877
+      ],
+      [
+       -4.790418,
+       5.85963
+      ],
+      [
+       -4.79045,
+       5.859108
+      ],
+      [
+       -4.789893,
+       5.859072
+      ],
+      [
+       -4.789434,
+       5.859394
+      ],
+      [
+       -4.789349,
+       5.860086
+      ],
+      [
+       -4.789315,
+       5.860412
+      ],
+      [
+       -4.789788,
+       5.860581
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P17",
+    "nom": "Tra Bi Séraphin",
+    "village": "Kpada",
+    "zone": "Duékoué",
+    "surface_ha": 7.9,
+    "variete": "Hybride amélioré",
+    "age_verger": 9,
+    "rendement_kg_ha": 740,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Terre Fertile"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -7.309414,
+       6.781301
+      ],
+      [
+       -7.31066,
+       6.781506
+      ],
+      [
+       -7.311041,
+       6.780248
+      ],
+      [
+       -7.311385,
+       6.779165
+      ],
+      [
+       -7.309983,
+       6.778137
+      ],
+      [
+       -7.309014,
+       6.779045
+      ],
+      [
+       -7.308252,
+       6.780523
+      ],
+      [
+       -7.309414,
+       6.781301
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P18",
+    "nom": "Séri Marc",
+    "village": "Zéaglo",
+    "zone": "Guiglo",
+    "surface_ha": 4.4,
+    "variete": "Forastero",
+    "age_verger": 17,
+    "rendement_kg_ha": 530,
+    "certification": "Aucune",
+    "cooperative": "SCOOP Mon Terroir"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -7.528992,
+       6.500352
+      ],
+      [
+       -7.529186,
+       6.501118
+      ],
+      [
+       -7.530051,
+       6.50126
+      ],
+      [
+       -7.530758,
+       6.500679
+      ],
+      [
+       -7.531016,
+       6.500379
+      ],
+      [
+       -7.531077,
+       6.499645
+      ],
+      [
+       -7.53041,
+       6.499281
+      ],
+      [
+       -7.529978,
+       6.499112
+      ],
+      [
+       -7.529003,
+       6.499123
+      ],
+      [
+       -7.528937,
+       6.499794
+      ],
+      [
+       -7.528992,
+       6.500352
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P19",
+    "nom": "Djé Alphonse",
+    "village": "Gabiadji",
+    "zone": "San-Pédro",
+    "surface_ha": 10.5,
+    "variete": "Hybride amélioré",
+    "age_verger": 7,
+    "rendement_kg_ha": 830,
+    "certification": "Rainforest Alliance",
+    "cooperative": "SCOOP Les Bâtisseurs"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -6.491672,
+       4.990506
+      ],
+      [
+       -6.492113,
+       4.989469
+      ],
+      [
+       -6.490529,
+       4.988518
+      ],
+      [
+       -6.488839,
+       4.988689
+      ],
+      [
+       -6.488073,
+       4.989273
+      ],
+      [
+       -6.487725,
+       4.989871
+      ],
+      [
+       -6.488842,
+       4.990706
+      ],
+      [
+       -6.490014,
+       4.991269
+      ],
+      [
+       -6.49185,
+       4.991308
+      ],
+      [
+       -6.491672,
+       4.990506
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "planteur_id": "P20",
+    "nom": "Amani Béatrice",
+    "village": "Anoumabo",
+    "zone": "Bongouanou",
+    "surface_ha": 3.8,
+    "variete": "Amelonado",
+    "age_verger": 23,
+    "rendement_kg_ha": 470,
+    "certification": "Fairtrade",
+    "cooperative": "SCOOP Nouvelle Aube"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -4.160192,
+       6.691281
+      ],
+      [
+       -4.160999,
+       6.690633
+      ],
+      [
+       -4.160835,
+       6.689831
+      ],
+      [
+       -4.160422,
+       6.68915
+      ],
+      [
+       -4.159896,
+       6.688795
+      ],
+      [
+       -4.159071,
+       6.689073
+      ],
+      [
+       -4.159394,
+       6.690272
+      ],
+      [
+       -4.159576,
+       6.691078
+      ],
+      [
+       -4.160192,
+       6.691281
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

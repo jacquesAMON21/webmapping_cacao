@@ -1,0 +1,70 @@
+:root{--tx:#eaf4f1;--mut:#a3b9b3;--gl:rgba(10,22,20,.62);--gb:rgba(255,255,255,.16);--ac:#3ee0b0;--ac2:#f5a524}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:#070d12;color:var(--tx);font:300 15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+#map{position:fixed;inset:0;background:#0a1614}
+.g{background:var(--gl);border:1px solid var(--gb);backdrop-filter:blur(20px) saturate(160%);-webkit-backdrop-filter:blur(20px) saturate(160%);border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+.p{position:fixed;z-index:1000;padding:18px}
+
+/* Titre */
+#t{top:calc(env(safe-area-inset-top,0px) + 62px);left:12px;max-width:min(340px,calc(100% - 24px));transition:transform .5s,opacity .5s,visibility 0s}
+#t.closed{opacity:0;transform:translateY(-12px);visibility:hidden;pointer-events:none;transition:transform .5s,opacity .5s,visibility 0s linear .5s}
+#t h1{font-size:19px;font-weight:600}
+#t p{color:var(--mut);font-size:13px;margin-top:4px}
+.st{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.st span{font-size:12px;padding:4px 12px;border-radius:99px;border:1px solid var(--gb);color:var(--ac)}
+
+/* Liste des planteurs */
+#list{top:calc(env(safe-area-inset-top,0px) + 62px);right:12px;width:min(320px,calc(100% - 24px));max-height:calc(100% - 180px);display:flex;flex-direction:column;gap:12px;opacity:0;transform:translateY(-12px);visibility:hidden;pointer-events:none;transition:transform .5s,opacity .5s,visibility 0s linear .5s}
+#list.open{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:transform .5s,opacity .5s,visibility 0s}
+#q{width:100%;font:inherit;font-size:14px;color:var(--tx);background:rgba(255,255,255,.08);border:1px solid var(--gb);border-radius:999px;padding:10px 16px;outline:none;transition:.3s}
+#q:focus{border-color:var(--ac)}
+#q::placeholder{color:var(--mut)}
+#items{overflow-y:auto;margin:0 -6px;padding:0 6px}
+.it{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:14px;cursor:pointer;transition:.25s}
+.it:hover{background:rgba(255,255,255,.09)}
+.it i{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-style:normal;font-weight:600;font-size:13px;color:#06130f;background:var(--c)}
+.it b{display:block;font-weight:600;font-size:14px;line-height:1.25}
+.it small{color:var(--mut);font-size:12px}
+.vide{color:var(--mut);font-size:13px;padding:10px}
+
+/* Panneau toggles */
+#lt,#tt{position:fixed;z-index:1001;top:calc(env(safe-area-inset-top,0px) + 12px);font:inherit;font-size:14px;color:var(--tx);padding:10px 14px;border-radius:999px;cursor:pointer}
+#tt{left:12px}
+#lt{right:12px}
+@media(max-width:700px){
+  #t p{display:none}
+  #list{top:calc(env(safe-area-inset-top,0px) + 225px);max-height:calc(100% - 285px)}
+}
+@media(max-width:360px){
+  #list{top:calc(env(safe-area-inset-top,0px) + 255px);max-height:calc(100% - 315px)}
+}
+
+/* Légende */
+#lg{bottom:calc(env(safe-area-inset-bottom,0px) + 14px);left:50%;transform:translateX(-50%);display:flex;gap:16px;padding:10px 20px;border-radius:999px;font-size:12px;color:var(--mut);white-space:nowrap}
+#lg span:before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:var(--c)}
+#n{position:fixed;z-index:1000;left:12px;bottom:calc(env(safe-area-inset-bottom,0px) + 82px);font-size:11px;color:var(--mut)}
+
+/* Contrôles Leaflet */
+.leaflet-bottom{margin-bottom:calc(env(safe-area-inset-bottom,0px) + 8px)}
+.leaflet-control-layers,.leaflet-bar{background:var(--gl)!important;border:1px solid var(--gb)!important;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-radius:14px!important;color:var(--tx)!important;box-shadow:0 8px 30px rgba(0,0,0,.35)!important}
+.leaflet-bar a{background:transparent!important;color:var(--tx)!important;border-color:var(--gb)!important}
+.leaflet-control-layers label{color:var(--tx)}
+.leaflet-control-attribution{background:rgba(0,0,0,.45)!important;color:#aaa!important}
+.leaflet-control-attribution a{color:#ccc!important}
+
+/* Info-bulle et popup */
+.leaflet-tooltip{background:var(--gl);color:var(--tx);border:1px solid var(--gb);border-radius:10px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:none;font-size:12px}
+.leaflet-tooltip-top:before{border-top-color:var(--gb)}
+.leaflet-popup-content-wrapper{background:var(--gl);color:var(--tx);border:1px solid var(--gb);border-radius:20px;backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%);box-shadow:0 12px 40px rgba(0,0,0,.45)}
+.leaflet-popup-tip{background:var(--gl);border:1px solid var(--gb)}
+.leaflet-popup-content{margin:16px 18px;width:250px!important}
+.leaflet-container a.leaflet-popup-close-button{color:var(--tx);top:8px;right:10px}
+.pp h3{font-size:17px;font-weight:600;color:var(--ac);line-height:1.2}
+.pp .sub{display:block;color:var(--mut);font-size:12px;margin:3px 0 12px}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}
+.kv small{display:block;color:var(--mut);font-size:11px;letter-spacing:.04em}
+.kv b{font-weight:600;font-size:13px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.tags span{font-size:11px;padding:3px 10px;border-radius:99px;border:1px solid var(--gb)}
+.zb{width:100%;font:inherit;font-size:13px;font-weight:600;color:#06130f;border:0;padding:10px;border-radius:999px;cursor:pointer;background:linear-gradient(110deg,var(--ac),var(--ac2));transition:.3s}
+.zb:hover{transform:translateY(-2px)}

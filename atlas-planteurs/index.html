@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atlas des planteurs de cacao · Côte d’Ivoire</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="map"></div>
+
+<button class="g" id="tt" type="button" aria-controls="t" aria-expanded="true">Masquer l’atlas</button>
+<button class="g" id="lt" type="button" aria-controls="list" aria-expanded="false">Afficher la liste</button>
+
+<div class="p g" id="t" aria-hidden="false">
+  <h1>Atlas des planteurs de cacao</h1>
+  <p>Localisation des exploitations dans la boucle du cacao, Côte d’Ivoire.</p>
+  <div class="st" id="st"></div>
+</div>
+
+<aside class="p g" id="list" aria-hidden="true">
+  <input id="q" type="search" placeholder="Rechercher un planteur, un village…" autocomplete="off">
+  <div id="items"></div>
+</aside>
+
+<div class="p g" id="lg">
+  <span style="--c:#8aa0ff">&lt; 3 ha</span><span style="--c:#f5a524">3 – 6 ha</span><span style="--c:#3ee0b0">&gt; 6 ha</span>
+</div>
+<div id="n">Données fictives</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
