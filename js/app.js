@@ -17,7 +17,27 @@ var googleSatellite=L.tileLayer("https://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&
 var openTopo=L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",{maxZoom:17,attribution:"© OpenTopoMap, © OSM"});
 //var sombre=L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{attribution:"© OpenStreetMap © CARTO",maxZoom:18});
 var markers=L.layerGroup().addTo(map);
-var ctrl=L.control.layers({"Satellite Google":googleSatellite,"OpenStreetMap":osm,"OpenTopoMap":openTopo},{"Exploitations (points)":markers},{collapsed:true,position:"bottomright"}).addTo(map);
+var ctrl=L.control.layers({"Satellite Google":googleSatellite,"OpenStreetMap":osm,"OpenTopoMap":openTopo},{"Exploitations":markers},{collapsed:true,position:"bottomright"}).addTo(map);
+var civPane=map.createPane("civPane");
+civPane.style.zIndex="350";
+var civLayer=L.layerGroup().addTo(map);
+ctrl.addOverlay(civLayer,"Côte d’Ivoire");
+
+if(typeof fetch==="function"){
+  fetch("data/CIV.geojson").then(function(r){
+    if(!r.ok)throw new Error("Chargement de data/CIV.geojson impossible ("+r.status+")");
+    return r.json();
+  }).then(function(gj){
+    L.geoJSON(gj,{
+      pane:"civPane",
+      style:{color:"#c8d8e5",weight:1,opacity:.65,fillOpacity:0},
+      onEachFeature:function(f,l){
+        var pr=f.properties||{},nom=pr["Sous-préfecture"]||pr["Région"]||"Côte d’Ivoire";
+        l.bindTooltip(nom);
+      }
+    }).addTo(civLayer);
+  }).catch(function(err){console.error(err)});
+}
 
 // --- Popup ---
 function popup(p){
@@ -39,7 +59,15 @@ map.on("popupopen",function(e){
 // --- Marqueurs et liste ---
 var mk={};
 P.forEach(function(p){
-  mk[p.id]=L.circleMarker([p.lat,p.lon],{radius:8+p.ha*.9,color:"#fff",weight:2,fillColor:couleur(p.ha),fillOpacity:.85})
+  var icon=L.divIcon({
+    className:"plantation-pin",
+    html:'<svg viewBox="0 0 32 42" aria-hidden="true"><path d="M16 1C7.7 1 1 7.7 1 16c0 10 15 25 15 25s15-15 15-25C31 7.7 24.3 1 16 1z" fill="'+couleur(p.ha)+'" stroke="#fff" stroke-width="2"/><circle cx="16" cy="16" r="5" fill="#fff"/></svg>',
+    iconSize:[32,42],
+    iconAnchor:[16,41],
+    popupAnchor:[0,-38],
+    tooltipAnchor:[0,-34]
+  });
+  mk[p.id]=L.marker([p.lat,p.lon],{icon:icon})
     .bindTooltip(p.nom,{direction:"top"}).bindPopup(popup(p),{maxWidth:290});
 });
 var items=document.getElementById("items"),q=document.getElementById("q");
