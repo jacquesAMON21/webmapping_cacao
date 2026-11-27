@@ -110,7 +110,7 @@ document.getElementById("st").innerHTML='<span>'+P.length+' planteurs</span><spa
 // --- Couche GeoJSON des plantations (polygones) ---
 // Dépose ton fichier dans data/plantations.geojson. Propriété optionnelle "planteur_id" (P01…P20)
 // pour relier un polygone à un planteur et réutiliser son popup.
-var STYLE={color:"#3ee0b0",weight:2,fillColor:"#3ee0b0",fillOpacity:.25};
+var STYLE={color:"#62a3ec",weight:2,fillColor:"#f9f9fa",fillOpacity:.25};
 if(typeof fetch==="function"){
   fetch("data/plantations.geojson").then(function(r){return r.ok?r.json():null}).then(function(gj){
     if(!gj||!gj.features||!gj.features.length)return;
