@@ -26,6 +26,8 @@ html,body{height:100%;background:#070d12;color:var(--tx);font:300 15px/1.55 syst
 .it b{display:block;font-weight:600;font-size:14px;line-height:1.25}
 .it small{color:var(--mut);font-size:12px}
 .vide{color:var(--mut);font-size:13px;padding:10px}
+.plantation-pin{background:transparent;border:0}
+.plantation-pin svg{display:block;width:32px;height:42px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.65))}
 
 /* Panneau toggles */
 #lt,#tt{position:fixed;z-index:1001;top:calc(env(safe-area-inset-top,0px) + 12px);font:inherit;font-size:14px;color:var(--tx);padding:10px 14px;border-radius:999px;cursor:pointer}
